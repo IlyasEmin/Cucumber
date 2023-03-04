@@ -46,4 +46,16 @@ public class GoogleStepDefinitions {
 
     }
 
+    @When("kullanici {string} için arama yapar")
+    public void kullanici_için_arama_yapar(String string) {
+        googlePage.searchBox.sendKeys(string+Keys.ENTER);
+    }
+
+    @Then("sonuclarin {string} icerdigini dogrula")
+    public void sonuclarin_icerdigini_dogrula(String string) {
+        Assert.assertTrue(Driver.getDriver().getPageSource().contains(string));
+
+    }
+
+
 }
