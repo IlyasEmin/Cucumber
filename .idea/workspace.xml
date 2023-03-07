@@ -4,23 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5efb3be9-40a7-4f38-8ff9-d9927a07c681" name="Changes" comment="day4">
-      <change afterPath="$PROJECT_DIR$/src/test/java/hooks/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/ExcelStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/LoginStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ExcelUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/cucumber.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/day05_data_tables.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/day06_excel_automation.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/day_06_failed_scenarios.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testdata/mysmoketestdata.xlsx" afterDir="false" />
+    <list default="true" id="5efb3be9-40a7-4f38-8ff9-d9927a07c681" name="Changes" comment="day6">
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/FailedRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/RegressionTestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/SmokeTestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/NOTES" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/GoogleStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/GoogleStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/day03_parametre_feature_file.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/day03_parametre_feature_file.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/day03_scenario_outline_1.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/day03_scenario_outline_1.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/day04_scenario_outline_2.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/day04_scenario_outline_2.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677941452263</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="day6">
+      <created>1678197150389</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678197150390</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,6 +135,7 @@
     <MESSAGE value="day1" />
     <MESSAGE value="day3" />
     <MESSAGE value="day4" />
-    <option name="LAST_COMMIT_MESSAGE" value="day4" />
+    <MESSAGE value="day6" />
+    <option name="LAST_COMMIT_MESSAGE" value="day6" />
   </component>
 </project>

@@ -1,5 +1,6 @@
-package runners;
 
+
+package runners;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
@@ -11,17 +12,13 @@ import org.junit.runner.RunWith;
                 "html:target/default-cucumber-reports.html",
                 "json:target/json-reports/cucumber.json",
                 "junit:target/xml-report/cucumber.xml",
-                "rerun:target/failed_scenarios.txt",
-               // "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+                "rerun:target/failed_scenarios.txt"
         },
         monochrome = true,//raporlarin consoleda okunakli sekilde cikmasi icin
         features = "./src/test/resources/features",//features folder path
-        glue = {"stepdefinitions","hooks"},   //stepdefinitions path
-        tags = "@failed_scenario",
+        glue = {"stepdefinitions"},   //stepdefinitions path
+        tags = "@testrunner",
         dryRun = false
 )
-public class Runner {
+public class TestRunner {
 }
-//Bu sinif Test caseleri RUN etmek icin kullanilir
-//Ve konfigurasyonlar icin kullanilir
-//Runner class, features file lar ile step defitions i birbirile baglar
